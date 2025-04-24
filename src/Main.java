@@ -75,7 +75,7 @@ public class Main {
             case "2":
                 System.out.println("Programa de diseño gráfico");
                 System.out.println("Selecciona la materia:\n1- Tipografia\n2 - Iconografia\n3- Semantica");
-                String materia = sc.nextLine();
+                materia = sc.nextLine();
                 switch (materia) {
                     case "1":
                         System.out.println("Nota de Tipografia");
@@ -136,7 +136,7 @@ public class Main {
             case  "3":
                 System.out.println("Programa de Gastronomia");
                 System.out.println("Selecciona la materia:\n1- Costos\n2 - Panadería dulce\n3- Cocina Internacional");
-                String materia = sc.nextLine();
+                materia = sc.nextLine();
                 switch (materia) {
                     case "1":
                         System.out.println("Nota de Costos");
@@ -194,4 +194,5 @@ public class Main {
                         break;
         }
     }
+}
 }
